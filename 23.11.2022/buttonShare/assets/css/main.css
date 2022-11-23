@@ -1,0 +1,169 @@
+#wrapper {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#wrapper .main-button {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #1580b8;
+  color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#wrapper .main-button:hover + .buttons {
+  visibility: visible;
+}
+#wrapper .main-button i {
+  position: absolute;
+  font-size: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#wrapper .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  visibility: hidden;
+  transition: 1s ease-in-out;
+}
+#wrapper .buttons-part1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+#wrapper .buttons-part1 span {
+  border: 0px solid black;
+  padding: 1px 3px;
+  background-color: grey;
+  color: white;
+}
+#wrapper .buttons-part1 .little-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: white;
+  color: grey;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#wrapper .buttons-part2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+#wrapper .buttons-part2 span {
+  border: 0px solid black;
+  padding: 1px 3px;
+  background-color: grey;
+  color: white;
+}
+#wrapper .buttons-part2 .little-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: white;
+  color: grey;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#wrapper .buttons-part3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+#wrapper .buttons-part3 span {
+  border: 0px solid black;
+  padding: 1px 3px;
+  background-color: grey;
+  color: white;
+}
+#wrapper .buttons-part3 .little-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: white;
+  color: grey;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#wrapper .buttons-part3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+#wrapper .buttons-part3 span {
+  border: 0px solid black;
+  padding: 1px 3px;
+  background-color: grey;
+  color: white;
+}
+#wrapper .buttons-part3 .little-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: white;
+  color: grey;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#wrapper .buttons-part4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+#wrapper .buttons-part4 span {
+  border: 0px solid black;
+  padding: 1px 3px;
+  background-color: grey;
+  color: white;
+}
+#wrapper .buttons-part4 .little-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: white;
+  color: grey;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}/*# sourceMappingURL=main.css.map */
